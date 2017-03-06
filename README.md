@@ -1,4 +1,4 @@
-# Compile-Mongoose-for-ESP8266
+# Compile-Mongoose-for-ESP8266 [DRAFT]
 1. Follow https://github.com/pfalcon/esp-open-sdk
 2. Clone https://github.com/espressif/ESP8266_RTOS_SDK
 3. Clone https://github.com/cesanta/mongoose
