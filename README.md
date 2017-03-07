@@ -4,7 +4,7 @@
 3. Clone https://github.com/cesanta/mongoose
 4. export SDK_PATH=/path/to/ESP8266_RTOS_SDK
 5. export BIN_PATH=./bin
-6. export PATH=/home/mig/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
+6. export PATH=/path/to/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 7. https://github.com/cesanta/mongoose/tree/master/examples/ESP8266_RTOS
 8. correct Makefile: LINKFLAGS -lgcc_sdk ---> -lgcc
 9. run ./gen_misc.sh 
