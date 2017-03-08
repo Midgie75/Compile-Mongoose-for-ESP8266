@@ -16,3 +16,5 @@ Following steps are run in a Ubuntu Yakkety Virtual Box on a Windows 10 host.
 12. pip install esptool
 13. sudo apt install arduino
 14. complete shutdown of Vbox and restart -> FTDI231x now on /dev/ttyUSB0
+15. change esptool.py: ESP_RAM_BLOCK   = 0x180
+16. esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_mode=dio --flash_size=detect 0x00000 ${BIN_PATH}/eagle.flash.bin 0x20000 ${BIN_PATH}/eagle.irom0text.bin 0x7e000 ${SDK_PATH}/bin/esp_init_data_default.bin
