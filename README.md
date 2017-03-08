@@ -15,3 +15,4 @@ Following steps are run in a Ubuntu Yakkety Virtual Box on a Windows 10 host.
 11. sudo apt install python-pip
 12. pip install esptool
 13. sudo apt install arduino
+14. complete shutdown of Vbox and restart -> FTDI231x now on /dev/ttyUSB0
