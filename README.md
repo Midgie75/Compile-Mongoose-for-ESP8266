@@ -14,3 +14,4 @@ Following steps are run in a Ubuntu Yakkety Virtual Box on a Windows 10 host.
 10. git clone https://github.com/espressif/esptool
 11. sudo apt install python-pip
 12. pip install esptool
+13. sudo apt install arduino
