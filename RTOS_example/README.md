@@ -1,4 +1,4 @@
-This is a Mongoose "Hello, world" that can be compiled under ESP8266 RTOS SDK.
+This is a Mongoose "Hello, world" that can be compiled under ESP8266 RTOS SDK. Its a copy of [Cesantas repository] (https://github.com/cesanta/mongoose/tree/master/examples/ESP8266_RTOS) with minimal changes.. 
 
 It sets up an AP (SSID `Mongoose`) and serves a "hello world" page on http://192.168.4.1/
 
