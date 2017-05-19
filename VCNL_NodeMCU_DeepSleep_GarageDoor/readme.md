@@ -4,4 +4,5 @@ The proximity sensor is meant to sense whether a garage door is opened or closed
 
 An MQTT client can call-up the VCNL proximity data to signal opened or closed garage door.
 
-More on this here: https://github.com/Midgie75/ESP8266-Projects/wiki/%233-VCNL_NodeMCU_DeepSleep_GarageDoor_WatchDog
+More on this [here](https://github.com/Midgie75/ESP8266-Projects/wiki/%233-VCNL_NodeMCU_DeepSleep_GarageDoor_WatchDog
+)
